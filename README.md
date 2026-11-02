@@ -1,32 +1,24 @@
-<h1>Weather App</h1>
+# Weather App
 
-<p>This is a simple web application that allows users to get real-time weather information by entering a city name. The app uses the OpenWeatherMap API to fetch weather data, including temperature, humidity, and wind speed.</p>
+A small web app that shows the current weather for a city. It uses the OpenWeatherMap API.
 
-<h2>Features:</h2>
-<ul>
-    <li>Fetches current weather data for any city.</li>
-    <li>Displays temperature, humidity, and wind speed.</li>
-    <li>Clean and responsive design.</li>
-</ul>
+![Weather App start screen](assets/app.png)
 
-<h2>Technologies Used:</h2>
-<ul>
-    <li>HTML, CSS, JavaScript</li>
-    <li>OpenWeatherMap API</li>
-</ul>
+## Features
 
-<h2>How to Use:</h2>
-<ol>
-    <li>Enter a city name in the input field.</li>
-    <li>Click the "Get Weather" button.</li>
-    <li>The app will display the current weather information for the entered city.</li>
-</ol>
+- Search for a city by name
+- Show temperature, humidity, and wind speed
+- Show an error message if the request fails
 
-<h2>Setup:</h2>
-<ol>
-    <li>Clone the repository.</li>
-    <li>Get your API key from <a href="https://openweathermap.org/api">OpenWeatherMap</a>.</li>
-    <li>Replace <code>'API'</code> in the JavaScript file with your API key.</li>
-    <li>Open <code>index.html</code> in your browser to use the app.</li>
-</ol>
+## Tools
 
+HTML, CSS, JavaScript, OpenWeatherMap API
+
+## Setup
+
+1. Clone the repository.
+2. Get an API key from [OpenWeatherMap](https://openweathermap.org/api).
+3. In `script.js`, replace `YOUR_ACTUAL_API_KEY` with your key.
+4. Open `index.html` in a browser.
+
+Do not commit your real API key to a public repository.
